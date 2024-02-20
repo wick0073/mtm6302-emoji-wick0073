@@ -1,0 +1,39 @@
+section#emoji-gallery
+ {
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 0 a;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.emoji-container 
+{
+  width: 775px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.emoji-item 
+{
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  border: 1px solid #000;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.emoji 
+{
+  font-size: 30px;
+}
+
+.emoji-code 
+{
+  margin-top: 8px;
+  background-color: rgb(192, 188, 188);
+  padding: 5px;
+}
